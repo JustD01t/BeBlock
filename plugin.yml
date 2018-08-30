@@ -1,0 +1,12 @@
+name: BeBlock
+main: beblock\BeBlock
+version: 1.0.0
+api: [4.0.0]
+author: "왕고슴도치 djdisodo"
+commands:
+    beblock:
+        description: "블록이 되보기"
+        permission: beblock.command
+permissions:
+    beblock.command:
+        default: true
